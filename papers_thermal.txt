@@ -1,0 +1,7 @@
+=== thermal performance energy pile ===
+
+1. Title: The role of ground hydrothermal spatial variability on energy pile group thermal performance
+   Authors: Qusi I. Alqawasmeh, M. Kreitmair, Guillermo A. Narsilio
+   Year: 2025
+   Citations: 8
+   Venue: Computers and geotechnics

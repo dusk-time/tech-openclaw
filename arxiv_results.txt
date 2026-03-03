@@ -1,0 +1,474 @@
+=== arXiv Search Results ===
+
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uqiEddDH6vARhX7kbZTwBByXfdk</id>
+  <title>arXiv Query: search_query=all:geothermal OR all:energy&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-01-30T15:01:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:geothermal+OR+all:energy&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>713775</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.14823v1</id>
+    <title>Geothermal Energy in Sedimentary Basins: Assessing Techno-economic Viability for Sustainable Development</title>
+    <updated>2024-02-05T22:37:53Z</updated>
+    <link href="https://arxiv.org/abs/2402.14823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.14823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Drilling deep geothermal wells has proven to be a challenging endeavor, primarily due to issues such as loss circulation events, material limitations under high temperatures, and the production of corrosive fluids. Furthermore, the substantial upfront costs, coupled with geological and technical obstacles associated with drilling super-hot EGS wells in igneous rocks, hinder the widespread implementation of geothermal systems. Alternatively, geothermal energy development in sedimentary basins presents an opportunity for clean energy production with relatively lower investment costs compared to the development of super-hot EGS in igneous rocks. Sedimentary basins exhibit attractive temperatures for geothermal applications, and their wide distribution enhances the potential for nationwide deployment. Decades of drilling and development experience in oil and gas wells have yielded a wealth of data, knowledge, and expertise. Leveraging this experience and data for geothermal drilling can significantly reduce costs associated with subsurface data gathering, well drilling, and completion. This paper explores the economic viability of geothermal energy production systems in sedimentary basins. The study encompasses an analysis of time-to-hit-temperature (THT) and cost-to-hit-temperature (CHT) parameters, as well as Favorability maps across the United States. These maps are based on factors such as well depth, total drilling time, well cost, and subsurface temperature data. By integrating sedimentary basin maps and underground temperature maps, the THT and CHT maps can facilitate the strategic placement of EGS wells and other geothermal system applications in the most favorable locations across the United States.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-05T22:37:53Z</published>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <arxiv:journal_ref>Geothermal Resources Council Transactions, 2023</arxiv:journal_ref>
+    <author>
+      <name>Orkhan Khankishiyev</name>
+    </author>
+    <author>
+      <name>Saeed Salehi</name>
+    </author>
+    <author>
+      <name>Runar Nygaard</name>
+    </author>
+    <author>
+      <name>Danny Rehg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0510346v1</id>
+    <title>The Dark Energy Survey</title>
+    <updated>2005-10-12T13:33:59Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0510346v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0510346v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro Telolo Inter-American Observatory (CTIO). The survey data will allow us to measure the dark energy and dark matter densities and the dark energy equation of state through four independent methods: galaxy clusters, weak gravitational lensing tomography, galaxy angular clustering, and supernova distances. These methods are doubly complementary: they constrain different combinations of cosmological model parameters and are subject to different systematic errors. By deriving the four sets of measurements from the same data set with a common analysis framework, we will obtain important cross checks of the systematic errors and thereby make a substantial and robust advance in the precision of dark energy measurements.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-12T13:33:59Z</published>
+    <arxiv:comment>White Paper submitted to the Dark Energy Task Force, 42 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name> The Dark Energy Survey Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.00081v1</id>
+    <title>An HPC-Based Hydrothermal Finite Element Simulator for Modeling Underground Response to Community-Scale Geothermal Energy Production</title>
+    <updated>2021-02-26T23:06:46Z</updated>
+    <link href="https://arxiv.org/abs/2103.00081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.00081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Geothermal heat, as renewable energy, shows great advantage with respect to its environmental impact due to its significantly lower CO2 emissions than conventional fossil fuel. Open and closed-loop geothermal heat pumps, which utilize shallow geothermal systems, are an efficient technology for cooling and heating buildings, especially in urban areas. Integrated use of geothermal energy technologies for district heating, cooling, and thermal energy storage can be applied to optimize the subsurface for communities to provide them with multiple sustainable energy and community resilience benefits. The utilization of the subsurface resources may lead to a variation in the underground environment, which might further impact local environmental conditions. However, very few simulators can handle such a highly complex set of coupled computations on a regional or city scale. We have developed high-performance computing (HPC) based hydrothermal finite element (FE) simulator that can simulate the subsurface and its hydrothermal conditions at a scale of tens of km. The HPC simulator enables us to investigate the subsurface thermal and hydrologic response to the built underground environment (such as basements and subways) at the community scale. In this study, a coupled hydrothermal simulator is developed based on the open-source finite element library deal.II. The HPC simulator was validated by comparing the results of a benchmark case study against COMSOL Multiphysics, in which Aquifer Thermal Energy Storage (ATES) is modeled and a process of heat injection into ATES is simulated. The use of an energy pile system at the Treasure Island redevelopment site (San Francisco, CA, USA) was selected as a case study to demonstrate the HPC capability of the developed simulator. The simulator is capable of modeling multiple city-scale geothermal scenarios in a reasonable amount of time.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-26T23:06:46Z</published>
+    <arxiv:comment>46th Workshop on Geothermal Reservoir Engineering Stanford University, Stanford, California, February 15-17, 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Xiang Sun</name>
+    </author>
+    <author>
+      <name>Kenichi Soga</name>
+    </author>
+    <author>
+      <name>Alp Cinar</name>
+    </author>
+    <author>
+      <name>Zhenxiang Su</name>
+    </author>
+    <author>
+      <name>Kecheng Chen</name>
+    </author>
+    <author>
+      <name>Krishna Kumar</name>
+    </author>
+    <author>
+      <name>Patrick F. Dobson</name>
+    </author>
+    <author>
+      <name>Peter S. Nico</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.0310v1</id>
+    <title>Large Synoptic Survey Telescope: Dark Energy Science Collaboration</title>
+    <updated>2012-11-01T21:23:33Z</updated>
+    <link href="https://arxiv.org/abs/1211.0310v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.0310v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark energy science and describes the current and anticipated state of the field. It makes the case for the DESC by laying out a robust analytical framework for dark energy science that has been defined by its members and the comprehensive three-year work plan they have developed for implementing that framework. The analysis working groups cover five key probes of dark energy: weak lensing, large scale structure, galaxy clusters, Type Ia supernovae, and strong lensing. The computing working groups span cosmological simulations, galaxy catalogs, photon simulations and a systematic software and computational framework for LSST dark energy data analysis. The technical working groups make the connection between dark energy science and the LSST system. The working groups have close linkages, especially through the use of the photon simulations to study the impact of instrument design and survey strategy on analysis methodology and cosmological parameter estimation. The white paper describes several high priority tasks identified by each of the 16 working groups. Over the next three years these tasks will help prepare for LSST analysis, make synergistic connections with ongoing cosmological surveys and provide the dark energy community with state of the art analysis tools. Members of the community are invited to join the LSST DESC, according to the membership policies described in the white paper. Applications to sign up for associate membership may be made by submitting the Web form at http://www.slac.stanford.edu/exp/lsst/desc/signup.html with a short statement of the work they wish to pursue that is relevant to the LSST DESC.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-01T21:23:33Z</published>
+    <arxiv:comment>133 pages; a White Paper describing the goals of the LSST Dark Energy Science Collaboration and its work plan for the next three years</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name> LSST Dark Energy Science Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.07865v1</id>
+    <title>Defining best practices in the management of geothermal exploration data</title>
+    <updated>2019-08-21T13:33:44Z</updated>
+    <link href="https://arxiv.org/abs/1908.07865v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.07865v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The objective of this work is to define best practices in the management of geothermal exploration data. This study builds on a questionnaire to survey the geothermal data management practices in mature geothermal markets. The inquiry targeted public Regulatory entities with overview of geothermal resources as well as public and private developers. Topics covered in the questionnaire range from the country status to the database set up. The questionnaire focused on the specifications, usage and investments required for installing/maintaining information systems capable of managing exploration data. In addition, information on the different regulatory frameworks and company policies for managing/sharing exploration data has been gathered to identify the requirements imposed on the design of information systems. The responses were analyzed to identify commonalities in data management practices. They reveal that installing an Information System (IS) is the best practice to systematically and securely manage exploration data. They also provide recommendations with respect to the regulatory framework, data types, data collection methodologies, data storage, data quality control, data accessibility and dissemination, IS architecture, financial investments and human resources required to develop a state-of-the art IS. These results will guide the design of future technical assistance programs for beneficiaries of World Bank support to geothermal exploration activities and it is our belief that they will be beneficial for the geothermal sector at large.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-21T13:33:44Z</published>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <arxiv:journal_ref>World Geothermal Congress, 2020, Reykjavik, Iceland</arxiv:journal_ref>
+    <author>
+      <name>Mathieu Darnet</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P Calcagno</name>
+    </author>
+    <author>
+      <name>S Hauksdottir</name>
+    </author>
+    <author>
+      <name>D Thorbjornsson</name>
+    </author>
+    <author>
+      <name>E Trumpy</name>
+    </author>
+    <author>
+      <name>J de Wit</name>
+    </author>
+    <author>
+      <name>T Fridriksson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.08799v1</id>
+    <title>The structural architecture of the Los Humeros volcanic complex and geothermal field</title>
+    <updated>2019-07-20T11:24:16Z</updated>
+    <link href="https://arxiv.org/abs/1907.08799v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.08799v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Los Humeros Volcanic Complex (LHVC) is a large silicic caldera complex in the Trans-Mexican Volcanic Belt (TMVB), hosting a geothermal field currently in exploitation by the Comision Federal de Electricidad (CFE) of Mexico, with an installed capacity of ca. 95 MW of electric power. Understanding the structural architecture of LHVC is important to get insights into the interplay between the volcano-tectonic setting and the characteristics of the geothermal resources in the area. The analysis of volcanotectonic interplay in LHVC benefits from the availability of subsurface data obtained during the exploration of the geothermal reservoir that allows the achievement of a 3D structural view of the volcano system. The LHVC thus represents an important natural laboratory for the development of general models of volcano-tectonic interaction in calderas.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-20T11:24:16Z</published>
+    <arxiv:comment>30 pp, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <arxiv:journal_ref>Journal of Volcanology and Geothermal Research 2019</arxiv:journal_ref>
+    <author>
+      <name>Gianluca Norini</name>
+    </author>
+    <author>
+      <name>Gerardo Carrasco Nunez</name>
+    </author>
+    <author>
+      <name>Fernando Corbo-Camargo</name>
+    </author>
+    <author>
+      <name>Javier Lermo</name>
+    </author>
+    <author>
+      <name>Javier Hernandez Rojas</name>
+    </author>
+    <author>
+      <name>Cesar Castro</name>
+    </author>
+    <author>
+      <name>Marco Bonini</name>
+    </author>
+    <author>
+      <name>Domenico Montanari</name>
+    </author>
+    <author>
+      <name>Giacomo Corti</name>
+    </author>
+    <author>
+      <name>Giovanna Moratti</name>
+    </author>
+    <author>
+      <name>Luigi Piccardi</name>
+    </author>
+    <author>
+      <name>Guillermo Chavez</name>
+    </author>
+    <author>
+      <name>Maria Clara Zuluaga</name>
+    </author>
+    <author>
+      <name>Miguel Ramirez</name>
+    </author>
+    <author>
+      <name>Fidel Cedillo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.06541v1</id>
+    <title>3-D Magnetotelluric Investigations for geothermal exploration in Martinique (Lesser Antilles). Characteristic Deep Resistivity Structures, and Shallow Resistivity Distribution Matching Heliborne TEM Results</title>
+    <updated>2015-01-26T19:55:17Z</updated>
+    <link href="https://arxiv.org/abs/1501.06541v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.06541v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Within the framework of a global French program oriented towards the development of renewable energies, Martinique Island (Lesser Antilles, France) has been extensively investigated (from 2012 to 2013) through an integrated multi-methods approach, with the aim to define precisely the potential geothermal ressources, previously highlighted (Sanjuan et al., 2003). Amongst the common investigation methods deployed, we carried out three magnetotelluric (MT) surveys located above three of the most promising geothermal fields of Martinique, namely the Anses d'Arlet, the Montagne Pel{é}e and the Pitons du Carbet prospects. A total of about 100 MT stations were acquired showing single or multi-dimensional behaviors and static shift effects. After processing data with remote reference, 3-D MT inversions of the four complex elements of MT impedance tensor without pre-static-shift correction, have been performed for each sector, providing three 3-D resistivity models down to about 12 to 30 km depth. The sea coast effect has been taken into account in the 3-D inversion through generation of a 3-D resistivity model including the bathymetry around Martinique from the coast up to a distance of 200 km. The forward response of the model is used to calculate coast effect coefficients that are applied to the calculated MT response during the 3-D inversion process for comparison with the observed data. 3-D resistivity models of each sector, which are inherited from different geological history, show 3-D resistivity distribution and specificities related to its volcanological history. In particular, the geothermal field related to the Montagne Pel{é}e strato-volcano, is characterized by a quasi ubiquitous conductive layer and quite monotonic typical resistivity distribution making interpretation difficult in terms of geothermal targets. At the opposite, the resistivity distribution of Anse d'Arlet area is radically different and geothermal target is thought to be connected to a not so deep resistive intrusion elongated along a main structural axis. Beside these interesting deep structures, we demonstrate, after analyzing the results of the recent heliborne TEM survey covering the whole Martinique, that surface resistivity distribution obtained from 3-D inversion reproduce faithfully the resistivity distribution observed by TEM. In spite of a very different sampling scale, this comparison illustrates the ability of 3-D MT inversion to take into account and reproduce static shift effects in the sub-surface resistivity distribution.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-26T19:55:17Z</published>
+    <arxiv:comment>Wordl Geothermal Congress 2015, Apr 2015, Melbourne, Australia</arxiv:comment>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <author>
+      <name>Nicolas Coppo</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jean-Michel Baltassat</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jean-François Girard</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pierre Wawrzyniak</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sophie Hautot</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pascal Tarits</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thomas Jacob</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Guillaume Martelet</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Francis Mathieu</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alain Gadalia</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vincent Bouchot</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hervé Traineau</name>
+      <arxiv:affiliation>CFG</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.16454v1</id>
+    <title>Exploration of the deep geothermal potential of Petite-Terre Island in Mayotte</title>
+    <updated>2024-06-24T08:45:53Z</updated>
+    <link href="https://arxiv.org/abs/2406.16454v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.16454v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2017, the electricity mix of the Department of Mayotte included 5% photovoltaic production, spread over more than 70 installations on the island, and 95% diesel thermal production, provided by two power plants. Nevertheless, since 2005, in order to diversify its electricity supply, the local authorities of Mayotte set up a vast program to develop renewable energies, including the evaluation of Mayotte's geothermal potential to produce electricity.In this framework, BRGM started a program to explore the deep geothermal potential of the department of Mayotte. The conclusions of the different studies confirmed the idea of a strong potential under Petite Terre (Traineau et al., 2006; Sanjuan et al., 2008; Darnet et al., 2019).Our present study aims at refining the knowledge of the subsurface and the geothermal system potentially present beyond a depth of 1000m. This new phase, carried out between 2021 and 2022 includes a geophysical measurement campaign accompanied by a fracture analysis and the study of gas emanating from the ground.The different data set acquired during the campaigns are analysed and interpreted jointly with the data acquired in the framework of the monitoring of the exceptional seismo-volcanic activity observed since May 2018 off the coast of Mayotte.The result of this analysis is a 3D geological model of the structure of the island of Petite Terre, completed by a hydrothermal model of the functioning of the geothermal system, with the aim to help in locating the most favourable zones for geothermal exploitation.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-24T08:45:53Z</published>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <arxiv:journal_ref>9TH AFRICAN RIFT GEOTHERMAL CONFERENCE - ARGEO C9, Nov 2022, Djibouti, Djibouti</arxiv:journal_ref>
+    <author>
+      <name>Chrystel Dezayes</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.11826v1</id>
+    <title>A Geothermal Well Doublet for Research and Heat Supply of the TU Delft Campus</title>
+    <updated>2020-03-26T10:48:43Z</updated>
+    <link href="https://arxiv.org/abs/2003.11826v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.11826v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A geothermal well doublet, designed for two primary aims of research and commercial heat supply, is planned to be constructed on the campus of Delft University of Technology. The plans include a comprehensive research programme, including installation of a wide range of instruments alongside a comprehensive logging and coring programme and an extensive surface monitoring network. The wells will be cored, with samples from all representative geological units down to the reservoir. An extensive suite of well-logs is planned to provide detailed information on the properties of the various units. Fibre-optic cables will be installed in both wells all the way down to the reservoir section, which is anticipated to be at 2200m, in the Lower Cretaceous Delft Sandstone. The Delft sandstone is well-known as a reservoir rock for natural gas in the West Netherlands Basin. The wells will be operated by a commercial entity, but the infrastructure is designed and explicitly installed as a research infrastructure. As such it will become part of the European EPOS (European Plate Observing System, https://www.epos-ip.org), such that accessibility and data availability will not be limited to TU Delft researchers. The university has made a decision in principle to start drilling no later than 2020.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-26T10:48:43Z</published>
+    <arxiv:comment>14 pages, 4 figures, World Geothermal Congress 2020 (-&gt;2021)</arxiv:comment>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <author>
+      <name>Philip Vardon</name>
+    </author>
+    <author>
+      <name>David Bruhn</name>
+    </author>
+    <author>
+      <name>Abe Steiginga</name>
+    </author>
+    <author>
+      <name>Barbara Cox</name>
+    </author>
+    <author>
+      <name>Hemmo Abels</name>
+    </author>
+    <author>
+      <name>Auke Barnhoorn</name>
+    </author>
+    <author>
+      <name>Guy Drijkoningen</name>
+    </author>
+    <author>
+      <name>Evert Slob</name>
+    </author>
+    <author>
+      <name>Kees Wapenaar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.07899v1</id>
+    <title>Imaging and monitoring the Reykjanes supercritical geothermal reservoir in Iceland with time-lapse CSEM and MT measurements</title>
+    <updated>2019-05-20T06:29:16Z</updated>
+    <link href="https://arxiv.org/abs/1905.07899v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.07899v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have investigated the benefits and drawbacks of active EM surveying (Controlled-Source EM or CSEM) for monitoring geothermal reservoirs in the presence of strong industrial noise with an actual time-lapse survey over the Reykjanes geothermal field in Iceland before and after the thermal stimulation of the supercritical RN-15/IDDP-2 geothermal well. It showed that a high CSEM survey repeatability can be achieved with electric field measurements (within a few percent) but that time-lapse MT survey is a challenging task because of the high level of cultural noise in this industrialized environment. To assess the quality of our CSEM dataset, we inverted the data and confronted the resulting resistivity model with the resistivity logged in the RN-15/IDDP-2 well. We obtained a good match up to 2-3km depth, i.e. enough to image the caprock and the liquid-dominated reservoir but not deep enough to image the reservoir in supercritical conditions. To obtain such an image, we had to jointly invert legacy MT data with our CSEM data. On the monitoring aspects, the analysis of changes in electric fields did not allow to identify any CSEM signal related to the thermal stimulation of the RN-15/IDDP-2 well. One possible explanation is the weakness of the time-lapse CSEM signal compared the achieved CSEM survey repeatability as a result of a limited resistivity change over a limited volume within the reservoir.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-20T06:29:16Z</published>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <arxiv:journal_ref>European Geothermal Congress, Jun 2019, The Hague, Netherlands</arxiv:journal_ref>
+    <author>
+      <name>Mathieu Darnet</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Coppo</name>
+      <arxiv:affiliation>KIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Wawrzyniak</name>
+      <arxiv:affiliation>KIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Nielsson</name>
+      <arxiv:affiliation>KIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Fridleifsson</name>
+      <arxiv:affiliation>KIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Schill</name>
+      <arxiv:affiliation>KIT</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.14824v1</id>
+    <title>Hard Rock Drilling for Super-hot Enhanced Geothermal System Development: Literature Review and Techno-Economic Analysis</title>
+    <updated>2024-02-06T18:46:48Z</updated>
+    <link href="https://arxiv.org/abs/2402.14824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.14824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The increasing global demand for electricity and the imperative of achieving sustainable and net-zero energy solutions have underscored the importance of exploring alternative sources. Enhanced Geothermal Systems (EGS) have emerged as a promising avenue for renewable and sustainable energy production. However, the development of EGS faces a significant challenge in drilling through hard rock formations at high temperatures, necessitating specialized drilling equipment and techniques. This study aims to investigate the current state-of-the-art technology for drilling in hard rock formations under elevated temperatures, specifically in the context of super-hot EGS development. It involves a comprehensive review of previous projects and a meticulous analysis of existing drilling technologies and techniques. Furthermore, a techno-economic evaluation will be conducted to assess the feasibility of super-hot EGS development in hard igneous formations, considering key factors such as drilling performance, operational challenges, and material costs. The outcomes of this study will enhance the understanding of the technical challenges associated with super-hot EGS development and facilitate the design of efficient and cost-effective drilling technologies for the geothermal energy industry. By improving the drilling process in EGS development, the full potential of geothermal energy can be harnessed as a viable and sustainable energy source to meet the growing global demand for electricity.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T18:46:48Z</published>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <arxiv:journal_ref>Geothermal Resources Council Transactions, Vol 47, 2023, Davis, California</arxiv:journal_ref>
+    <author>
+      <name>Orkhan Khankishiyev</name>
+    </author>
+    <author>
+      <name>Saeed Salehi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0507457v2</id>
+    <title>Dark Energy and Cosmic Sound: w(z) Surveys with the Gemini/Subaru Wide-Field Multi-Object Spectrograph</title>
+    <updated>2005-10-18T14:59:35Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0507457v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0507457v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This white paper gives an overview of the proposed Gemini/Subaru Wide-Field Multi-Object Spectrograph (WFMOS) and the proposed redshift surveys of 2.6 million galaxies with 0.5&lt;z&lt;3.3 over 2000 deg^2 of sky. These surveys will probe the baryonic acoustic oscillations in the galaxy power spectrum with unprecedented precision and over a range of redshifts and deliver dark energy w(z) constraints an order of magnitude better than current limits. We discuss the requirements on precursor observations and on calibrations, the systematics in the method and the quantitative precision obtainaible in distance-redshift and expansion-rate-redshift measurements which feed in to the w(z) precision. We also outline the technological and scientific strengths and risks which might be associated with the project and the relationship of WFMOS to other baryon oscillation experiments.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-07-19T20:15:27Z</published>
+    <arxiv:comment>White paper submitted to the Dark Energy Task Force. 13 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Karl Glazebrook</name>
+    </author>
+    <author>
+      <name>Daniel Eisenstein</name>
+    </author>
+    <author>
+      <name>Arjun Dey</name>
+    </author>
+    <author>
+      <name>Bob Nichol</name>
+    </author>
+    <author>
+      <name>The WFMOS Feasibility Study Dark Energy Team</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.16451v1</id>
+    <title>Auxiliary Chemical Geothermometers Applied to Waters from some East African Rift Areas (Djibouti, Ethiopia, Kenya) for Geothermal Exploration</title>
+    <updated>2024-06-24T08:44:15Z</updated>
+    <link href="https://arxiv.org/abs/2406.16451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.16451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>If the temperature values of geothermal reservoirs given by classical chemical geothermometers applied on thermal waters are relatively divergent, it is often difficult to estimate the temperatures of these reservoirs with sufficient accuracy for geothermal exploration, before drilling operations. In this case, some auxiliary chemical geothermometers such as Na-Li, Mg-Li, Na-Rb, Na-Cs, K-Sr, K-F, K-Mn, K-Fe, K-W, etc., existing in the literature can be useful tools to help estimating these temperatures. However, previous studies have shown these geothermometers are not only dependent on temperature, but also on other parameters such as the nature of the reservoir rocks and minerals, the fluid salinity, etc. Consequently, they must be used with caution. Another problem for the use of these geothermometers is that Li, Sr, Cs, Rb, Mn, Fe and W are under the form of trace elements in numerous geothermal waters and that it is often difficult to find analyses of these elements in the literature. In this study, we test some of these auxiliary geothermometers on several waters selected from literature data relative to East African Rift (EAR) geothermal areas, in Republic of Djibouti, Ethiopia and Kenya, where temperature values of deep geothermal reservoirs have been measured into wells or estimated with certainty using chemical classical geothermometers applied on thermal waters. The comparative results are discussed and allow bringing conclusions and recommendations. Among the tested auxiliary geothermometers, this work shows that the Na-Li thermometric relationship defined for the dilute waters from hightemperature volcanic geothermal areas of Iceland is one of the most relevant to estimate the temperatures of deep reservoirs for waters from several geothermal areas from the Republic of Djibouti, Ethiopia and Kenya. In previous studies, this Na-Li thermometric relationship had also given good estimations of reservoir temperatures for high-temperature (T $\ge$ 300{\textdegree}C) borehole dilute waters from the Los Humeros geothermal area, in Mexico, in volcanic environment. The use of other auxiliary geothermometers such as K-F, K-Sr, Na-Rb and Na-Cs (when F, Sr, Rb and Cs have been analysed) can be also relevant in some cases.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-24T08:44:15Z</published>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <arxiv:journal_ref>9th African Rift Geothermal Conference ARGeo 2022 (ARGeo - C9), Nov 2022, Djibouti, Djibouti</arxiv:journal_ref>
+    <author>
+      <name>Bernard Sanjuan Sanjuan</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.07897v1</id>
+    <title>Geophysical signature of the transition zone between the sedimentary cover and the basement: an analogue approach to help de-risking geothermal prospects</title>
+    <updated>2019-05-20T06:25:14Z</updated>
+    <link href="https://arxiv.org/abs/1905.07897v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.07897v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Within the frame of the ANR-funded CANTARE-Alsace project, we have undertaken a multi-scale and multidisciplinary approach to increase our knowledge of the transition zone between the sedimentary cover and the basement and provide fundamental knowledge for the assessment of its geothermal potential. In this paper, we report out the results of a study performed on an exhumed transition zone in the Ringelbach area in the Vosges Mountains, on the flank of the Rhine graben. In this analogue of a deeply buried transition zone of the Rhine Graben, a thin layer of Triassic sandstones is still present on the top of the fractured and altered granitic basement providing the opportunity to study in-situ the physical properties of this transition zone. In this paper, we focused on electrical and acoustic properties of the transition zone as they are the main physical parameters usually assessed with the help of geophysical methods during the exploration phase of a geothermal project.</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-20T06:25:14Z</published>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <arxiv:journal_ref>European Geothermal Congress, Jun 2019, The Hague, Netherlands</arxiv:journal_ref>
+    <author>
+      <name>Mathieu Darnet</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Dezayes</name>
+      <arxiv:affiliation>IPGS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Girard</name>
+      <arxiv:affiliation>IPGS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Baltassat</name>
+      <arxiv:affiliation>IPGS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Lerouge</name>
+      <arxiv:affiliation>IPGS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Reuschlé</name>
+      <arxiv:affiliation>IPGS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Coppo</name>
+    </author>
+    <author>
+      <name>F. Bretaudeau</name>
+    </author>
+    <author>
+      <name>J. Porte</name>
+    </author>
+    <author>
+      <name>Y. Lucas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ex/9901002v2</id>
+    <title>Evaluation of the LEP Centre-of-Mass Energy Above the W-Pair Production Threshold</title>
+    <updated>1999-04-08T15:18:17Z</updated>
+    <link href="https://arxiv.org/abs/hep-ex/9901002v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ex/9901002v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Knowledge of the centre-of-mass energy at LEP2 is of primary importance to set the absolute energy scale for the measurement of the W-boson mass. The beam energy above 80 GeV is derived from continuous measurements of the magnetic bending field by 16 NMR probes situated in a number of the LEP dipoles. The relationship between the fields measured by the probes and the beam energy is calibrated against precise measurements of the average beam energy between 41 and 55 GeV made using the resonant depolarisation technique. The linearity of the relationship is tested by comparing the fields measured by the probes with the total bending field measured by a flux loop. This test results in the largest contribution to the systematic uncertainty. Several further corrections are applied to derive the the centre-of-mass energies at each interaction point. In addition the centre-of-mass energy spread is evaluated. The beam energy has been determined with a precision of 25 MeV for the data taken in 1997, corresponding to a relative precision of 2.7x10^{-4}. This is small in comparison to the present uncertainty on the W mass measurement at LEP. However, the ultimate statistical precision on the W mass with the full LEP2 data sample should be around 25 MeV, and a smaller uncertainty on the beam energy is desirable. Prospects for improvements are outlined.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-01-07T10:19:40Z</published>
+    <arxiv:comment>24 pages, 10 figures, Latex, epsfig; replaced by version accepted by European Physical Journal C</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Eur.Phys.J.C11:573-585,1999</arxiv:journal_ref>
+    <author>
+      <name> The LEP Energy Working Group</name>
+    </author>
+    <arxiv:doi>10.1007/s100520050657</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s100520050657" title="doi"/>
+  </entry>
+</feed>

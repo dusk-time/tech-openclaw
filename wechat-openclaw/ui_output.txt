@@ -1,0 +1,12 @@
+[WeChat] Connecting to WeChat (timeout: 5s)...
+Traceback (most recent call last):
+  File "C:\Users\28054\.openclaw\workspace\wechat-openclaw\wechat_uia.py", line 230, in <module>
+    main()
+  File "C:\Users\28054\.openclaw\workspace\wechat-openclaw\wechat_uia.py", line 218, in main
+    explore()
+  File "C:\Users\28054\.openclaw\workspace\wechat-openclaw\wechat_uia.py", line 201, in explore
+    if not wechat.connect(5):
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\28054\.openclaw\workspace\wechat-openclaw\wechat_uia.py", line 41, in connect
+    print(f"[WeChat] \u2713 Connected to: {self.window.Name}")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2713' in position 9: illegal multibyte sequence

@@ -1,0 +1,618 @@
+第x卷 第1期 新 能 源 进 展 Vol. x No.1
+20xx年2月 ADVANCESIN NEWANDRENEWABLE ENERGY Feb.20xx
+文章编号： 2095-560X （20xx）01-0000-00
+基于CiteSpace 对浅层地热能源研究及未来发展规划
+张三三1，李 四1,2，王五五1，赵 六1†
+（1.中国科学院广州能源研究所，广州 510640；2.中国科学院大学，北京 100049）
+摘 要：在"碳达峰、碳中和"战略目标指引下，浅层地热能作为清洁可再生能源的重要组成，其开发利用日益受到学术界关注。本研究运用CiteSpace文献计量工具，对中国知网（CNKI）和Web of Science（WoS）核心合集中2000-2025年间浅层地热能源研究文献进行可视化分析，系统梳理该领域的发展脉络、研究热点与前沿趋势。结果表明：（1）中国浅层地热能研究发文量占全球总量的54.1%，位居首位，但呈现明显的"工程应用导向"特征，研究主题高度集中于"地源热泵""能源桩"等可快速工程化的技术节点；而国际研究则呈现"基础理论导向"特征，更关注热力耦合机理、数值模拟方法等基础问题。（2）中外研究差异源于两国能源政策和发展阶段的结构性特征，中国研究高度聚焦工程应用，国际研究在基础理论层面已形成较为完整的知识体系。（3）制约中国浅层地热能发展的关键瓶颈在于基础理论积累薄弱、机构合作网络分散、高产作者群体较小。（4）未来研究应实现"工程应用型"向"理论-应用协同型"的战略转型，加强热力耦合机理研究，深化国际合作，推动标准体系建设。本研究的创新点在于首次系统对比分析了中英文浅层地热能研究的知识图谱结构，揭示了中外研究范式差异的深层原因，并提出了针对性的发展建议。
+关键词： 浅层地热能；地源热泵；能源桩；CiteSpace；文献计量分析；知识图谱；研究范式
+中图分类号： TK0~TK91 （在《中国图书馆分类法》中选择，网址： http://www.ztflh.com ，也可在本刊网页"下载
+中心"整本下载；多个主题可标记 2 ~3个分类号，主分类号排在第一位，多个分类号之间用分号，如 TK9；TM4）
+文献标志码： A
+TitleinEnglish (与中文题名含义一致，且每一个实义单词的首字母大写 )
+ZHANG Sansan1, LI Si1,2,WANGWuwu1, ZHAO Liu1
+(1.Guangzhou Instituteof Energy Conversion,ChineseAcademyofSciences, Guangzhou510640, China;
+2.UniversityofChineseAcademyof Sciences, Beijing100049,China)
+Abstract: Content of abstract 中英文摘要按照 "拥有与文章同等量的主要信息 "的原则，应能简明、确切地阐述文章
+的创新性内容 ,给出研究目的 (有时可省略 )、方法、重要的结果和主要结论 ;但不宜对文章内容和结论进行评价或评
+论,不宜有引言中出现的内容 ,不宜简单重复题目中已有的信息 ;不推荐在摘要中引用文献 ,除非文章证实或否定
+了他人已发表的结果 .摘要中尽量不使用复杂化学结构式、图片和公式 .英文摘要的含义应与中文摘要一致 ,但不
+应逐字翻译中文摘要 ;英文摘要尽量使用简单句 ,避免使用复句套复句的超长语句 ,推荐篇幅为 200 ~400 个单词.
+Keywords: keyword1; keyword2;keyword3; keyword4 ( 中、英文关键词一 一对应
+
+2 新 能 源 进 展 第 x卷
+0引 言
+能源是人类生存和发展的重要物质基础[1]。随着化石能源储量迅速下降，能源危机已成为影响经济发展的主要问题[2]。我国作为世界最大能源消费国，正面临"双碳"目标下的能源结构转型压力[3]。浅层地热能作为一种清洁可再生能源，在建筑供暖制冷领域具有巨大应用潜力[4]。但我国浅层地热能开发利用仍面临结构性矛盾：虽然在资源方面有着巨大潜力，336个地级以上城市浅层地热能年可开采量折合标准煤7亿吨[5]，但实际开发程度极低--开采率仅为2.3%[5]，远低于国际先进水平。
+
+这种矛盾背后，隐藏着更深层次的研究范式失衡。通过文献调研发现，中国研究高度聚焦于"地源热泵"等工程应用技术，而对"热力耦合机理"等基础理论关注相对不足[6]。相比之下，国际研究虽在工程应用方面进展相对缓慢，但在基础理论层面已形成较为完整的知识体系[7]。Sani等[7]的综述表明，国际学术界对能源桩热-力耦合机理开展了大量基础研究；而Loveridge等[8]的研究进一步证实，能源地构物的理论分析方法已相对成熟。然而，中国相关研究仍以工程应用为导向，基础理论积累相对薄弱[6]。
+
+这种理论与工程的失衡，影响了我国浅层地热能技术的发展，导致能源利用效率低下。2021年，建筑运行阶段碳排放达23.0亿tCO₂，占全国总量的21.6%[9]。其中，北方采暖地区贡献了13.1亿tCO₂，且人均排放为南方的2倍以上，凸显传统集中供暖对化石能源的高度依赖[9]。更值得关注的是，公共建筑以仅21%的面积消耗了42%的能源并贡献了41%的碳排放[9]，现有建筑供暖系统存在严重的能源效率低下和碳排放过高问题，亟需通过浅层地热能等清洁低碳技术实现系统性替代。
+
+在此背景下，系统梳理浅层地热能研究的知识结构、热点演变与国际差异，对于破解当前困境有着重要意义。CiteSpace作为一款先进的文献计量可视化工具，能够有效揭示科学领域的知识演进脉络和研究前沿[10]。本文运用CiteSpace文献计量工具，对中国知网（CNKI）和Web of Science（WoS）核心合集中2000-2025年间浅层地热能源研究文献进行可视化分析，旨在：（1）展示中西方研究差异；（2）识别制约我国浅层地热能发展的关键瓶颈；（3）提出从"工程应用型"向"理论-应用协同型"转型的发展路径。研究成果将为我国浅层地热能的高效开发利用提供理论支撑和实践指导。
+正文以1.25倍行距， 宋体 （英文用 Times
+New Roman ）五号字，稿件还应标注页码以
+利于编辑和修改。正文各部分都应简洁明了。
+层次标题一律用阿拉伯数字连续编号；如
+"1"、"1.1"、 "1.1.1"。
+1数据来源与研究方法
+1.1数据来源
+本研究采用系统检索策略，中文文献以
+中国知网（ CNKI）为数据来源，设置关键
+词 "能源地下结构 +能源桩+能源隧道 +
+能源底板"为一组， "地埋管地源热泵 +
+GSHP+ 地源热泵系统" 和 "地铁 +隧道+
+地下空间"为一组； "地埋管地源热泵 +
+GSHP+ 地源热泵系统"和"浅层地热能 +
+地热能提取"为一组；文献来源选择：学术
+期刊、学位论文、成果，时间跨度为2000
+年1月1日至2025年7月20日，共检索到文献514篇。英文文献以Web of Science（WOS）核心合集为数据来源，设置主题词"Energy Underground Structure + Energy Pile + Energy Tunnel + Energy Floor Slab""Ground-Coupled Heat Pump (GCHP) + GSHP + Ground Source Heat Pump System + Metro/Subway + Tunnel + Underground Space""Ground-Coupled Heat Pump (GCHP) + GSHP + Ground Source Heat Pump System + Shallow Geothermal Energy + Geothermal Energy Extraction"，时间跨度同为2000年1月1日至2025年7月20日，共检索到文献820篇。文献筛选过程中，在数据集中去除重复文献后，确定中文文献量为509篇，英文文献量为791篇。由于发文量及期刊影响力存在差异，本研究对中英文文献进行分别分析。
+
+1.2研究方法
+基于上述文献数据样本库，本研究采用
+CiteSpace6.2.R3 软件开展文献计量分析与
+知识图谱可视化，主要包括年度发文量时序
+分析、国家与机构合作网络图谱构建、关键
+词共现与聚类分析，以及突现词探测等方法，
+系统揭示浅层地热能领域的研究热度演变、
+核心研究力量分布、研究主题结构及阶段性前沿趋势。
+2研究文献的分析
+2.1发文量时序分析
+发文量是衡量某一研究领域发展态势的重要指标，能够直观反映该领域的研究热度与演变趋势[1]。CiteSpace软件能够有效识别研究领域的时序演变特征，揭示其发展轨迹[2]。基于CNKI和WoS检索结果的年度发文量统计如图1所示。
+
+从中文发文趋势来看，2001-2022年间呈现波动性上升态势，年均增长率约为15.8%。具体可划分为三个阶段：2001-2008年为起步期，年均发文量仅15篇左右，研究处于萌芽阶段；2009-2016年为增长期，年均发文量上升至35篇左右，研究热度逐步提升；2017-2022年为爆发期，年均发文量达到58篇，并在2022年达到峰值（72篇）。2022年后出现回落，2023年和2024年发文量分别为58篇和52篇。这一现象可能源于三方面因素：一是前期快速积累后进入平台期，研究热点趋于稳定；二是受疫情影响，部分涉及现场调研和工程应用的研究项目进展受阻；三是研究者注意力向新兴领域转移，如氢能、储能等[3]。
+
+与国内研究相比，英文文献的发文量自2013年起进入快速增长通道，年均增长率达18.6%，高于中文文献的15.8%。2020-2024年间英文发文量持续攀升，未出现明显衰减迹象。值得注意的是，2024年英文发文量（98篇）是中文（52篇）的1.9倍，表明浅层地热能研究在全球范围内持续保持高度关注且处于活跃发展期[8]。中文发文峰值（2022年）早于英文（2024年）约2年，反映出中国在该领域的研究起步虽晚，但追赶速度较快。能源桩作为浅层地热能的主要应用形式之一，其相关研究热度与整体趋势保持一致[9]。
+
+图1 2001-2025年中英文发文趋势图
+2.2文献发文分布
+2.2.1国家分布情况
+在浅层地热能源研究领域，国家层面的发文数量存在明显差异[1][8]。基于WoS核心合集英文文献的统计分析如图2所示，中国以428篇发文量位居全球首位，占英文文献总量的54.1%，其发文规模显著高于美国（81篇，占比10.2%）、意大利（47篇，占比5.9%）、德国（41篇，占比5.2%）和英国（37篇，占比4.7%）。这一数据表明中国在全球浅层地热能源研究体系中占据主导性学术地位[8]。
+
+欧洲国家在该领域整体保持较高且相对稳定的学术产出水平，意大利、德国、英国及法国（32篇，占比4.0%）等国家共同构成了主要研究力量，其长期持续的研究活动反映出欧洲在地热能源开发与利用方面所积累的技术基础与工程经验[15]。相关研究在理论模型构建、系统分析方法及关键技术深化等方面表现出较强的系统性与成熟度，并在工程应用与技术推广层面具有较高的实践价值，为浅层地热能源的规模化开发、高效利用及技术路径优化提供了重要的科学支撑[2]。
+
+图2 2001-2025年英文文献国家发文量分布图
+
+图3系统刻画了全球范围内该研究领域的国家学术产出规模及其国际合作关系特征。从节点规模来看，中国在样本期内的发文量位居首位，进一步验证了前文统计分析中中国在浅层地热能源研究领域所表现出的高水平学术产出特征；与此同时，美国、意大利和英国等国家的节点规模亦较为突出，表明上述国家长期处于该领域研究活动的核心地位。
+
+从国际合作网络结构角度分析，全球浅层地热能源研究呈现出明显的"核心-边缘"格局[16]。以中国、美国和意大利为代表的核心国家之间形成了较为密集的合作连线，显示出频繁而稳定的学术交流与合作关系；相比之下，土耳其、荷兰等国家在合作网络中处于相对边缘位置，其与核心国家之间的合作联系较为有限，参与国际协作的深度和广度仍有提升空间[9]。
+
+从区域协作特征来看，欧洲国家之间（如意大利、英国和德国）展现出较强的合作集聚性，其内部合作网络结构较为紧密，这在一定程度上反映了欧洲地区在地热能源技术研发与工程应用方面长期形成的区域协同创新传统。
+
+值得注意的是，尽管中国在发文数量上占据显著优势，但其国际合作网络的辐射范围相对集中，主要与少数核心国家保持稳定合作关系。未来，中国可通过进一步拓展与多元国家和地区的科研合作，提升其在全球浅层地热能源研究网络中的国际协作深度与学术影响力。
+
+图3 2001-2025年英文文献国家合作网络图
+
+2.2.2机构分布情况
+基于509篇有效样本文献，对浅层地热能源研究领域的发文机构进行了系统的文献计量分析，并构建了相应的机构合作网络分布图（见图4）。分析结果显示，509篇文献共涉及334家科研机构，研究主体主要分布于科研院所、工程勘察与设计单位以及高等院校，体现出该领域在基础研究与工程应用层面并重的发展特征。
+
+从机构发文频次统计分析，中文高频发文机构如表1所示。发文量超过7篇的机构仅有6家，分别为上海市地矿工程勘察院（9篇）、中国地质大学（武汉）工程学院（8篇）、天津地热勘查开发设计院（8篇）、浙江大学（7篇）、湖北工业大学（7篇）以及浙江大学滨海和城市岩土工程研究中心（7篇）。从机构类型结构来看，科研院所及工程技术类研究机构在发文数量上占据相对优势地位，表明其在浅层地热能源相关研究中承担了主要的研究任务，并在技术研发与工程实践层面发挥了核心支撑作用。
+
+表1 中文高频发文机构一览表
+
+| 频次 | 首次发文年份 | 机构 |
+|------|--------------|------|
+| 9 | 2010 | 上海市地矿工程勘察院 |
+| 8 | 2010 | 中国地质大学（武汉）工程学院 |
+| 8 | 2009 | 天津地热勘查开发设计院 |
+| 7 | 2019 | 浙江大学 |
+| 7 | 2021 | 浙江大学滨海和城市岩土工程研究中心 |
+| 7 | 2017 | 湖北工业大学 |
+| 6 | 2008 | 北京市地质矿产勘查开发局 |
+| 6 | 2019 | 宁波大学岩土工程研究所 |
+| 6 | 2021 | 浙大宁波理工学院 |
+
+图4展示了浅层地热能源研究领域主要发文机构的合作网络结构。该图基于CiteSpace构建，节点代表科研机构，节点规模与其发文数量呈正相关，连线表示机构间的合作关系，节点与连线的颜色变化反映了研究活动在时间维度上的演进特征。
+
+从整体网络结构特征来看，该机构合作网络呈现出多核心、弱集中的格局。网络中虽包含数量较多的研究机构，但节点间实际连线数量相对有限，整体网络密度处于较低水平，表明该领域尚未形成高度紧密的机构协作网络。多数机构的合作关系集中于2-4个稳定合作对象，仅少数核心节点表现出明显高于网络平均水平的连接强度，显示出该研究领域在合作广度与深度方面仍具有较大的提升空间。
+
+在国内机构层面，中国高校在网络中占据主导地位，且呈现出明显的规模优势与结构中心性优势。其中，河海大学（Hohai University）位于网络的核心位置，其节点规模显著大于网络中多数机构，同时具有较高的连接度和中介作用，说明其不仅在发文数量上处于领先地位，同时在机构协作中发挥了重要的组织与枢纽功能。同济大学、重庆大学、青岛理工大学、大连理工大学以及香港科技大学等高校同样表现出较强的合作辐射能力，形成了若干以国内高校为核心的合作子网络。总体而言，国内机构之间的合作更具稳定性和持续性，合作关系多表现为长期、重复出现的连线，反映出以科研团队或区域科研平台为依托的合作模式。
+
+相比之下，国际机构在网络中的节点规模整体偏小，但其合作结构呈现出不同于国内机构的特征。瑞士联邦理工学院（ETH Zurich）、洛桑联邦理工学院（EPFL）、法国国家科学研究中心（CNRS）、加州大学系统、剑桥大学、墨尔本大学和莫纳什大学等机构虽发文数量不占绝对优势，但其跨国合作连线较为突出，往往与多个国家或地区的机构建立合作联系，体现出较强的国际连接能力与桥梁作用[12]。然而，从整体结构上看，国际机构之间以及国际-国内机构之间的合作仍较为分散，多表现为点对点或小规模合作，尚未形成具有高度凝聚力的全球协作网络。这一特征与国内机构相对集中的合作模式形成了鲜明对比[14]。
+
+从时间演化特征来看，网络中节点与连线的颜色逐渐由冷色向暖色过渡，表明近十余年来浅层地热能源研究的机构参与度持续提升，合作活动呈现出逐步增强的趋势。但值得注意的是，新增节点多集中于网络边缘区域，且其连接对象相对有限，说明该领域在规模扩张的同时，合作结构的深化程度仍相对滞后。
+
+基于上述分析，本文认为该研究领域当前呈现出"国内主导、国际分散、合作潜力尚未充分释放"的阶段性特征。其可能原因在于：一方面，浅层地热能源研究具有较强的区域适应性和工程实践属性，促使国内机构更倾向于围绕本土资源条件与示范工程开展协作；另一方面，不同国家在地热资源禀赋、技术路径及政策支持方面存在差异，增加了跨国深度合作的组织与协调成本[5]。未来，若能依托国际联合项目、开放式数据平台及标准化技术体系，进一步加强国内外核心机构之间的协同，有望推动该领域从"局部合作"向"系统集成型国际协作"转变，从而提升浅层地热能源研究的整体创新水平与全球影响力。
+
+6 新 能 源 进 展 第 x卷
+2.3作者分布情况
+文作者共现网络图谱具有重要的学术
+分析价值。该图谱基于作者在学术文献中的
+合作数据进行量化构建，能够有效识别特定
+研究领域中的核心学者及其所构成的学术
+共同体。通过对网络中作者聚类特征与连接
+强度的分析，可揭示学术联系以及科研合作
+模式。此种分析阐释学科发展的内在动力，
+为识别潜在创新合作方向提供客观依据。
+对这一领域的分析可以通过对其核心
+作者入手进行分析，核心作者可以代表这个
+领域的研究水平和研究方向，根据普莱斯理
+论，发表论文数在 n篇以上的为核心作者
+1
+2
+max n 0.749 m（）
+式中maxm为作者最大发文量，最大发文
+量为6。经计算得到，该领域有 52位核心作
+者（发文量≥ 2.44篇） ，但高产作者群体较
+小（仅10人发文≥ 5篇） 。如图 2所示，共
+现图谱共生成 486个节点，仅 488条连线，
+节点密度为 0.0041，由此可见作者合作网络
+节点分散，连线较少，密度低。这表明国内
+研究尚未形成大规模、紧密协作的学术团队，
+研究成果相对分散，以小型团队或独立研究
+为主。在 CiteSpace 软件中以作者为节点进
+行分析，可以得到核心作者合作网图，如图
+2所示。图 2中核心作者间的连线很少且分
+散，节点密度低。说明该领域的合作关系较
+为分散，多为单位机构内的合作，没有形成有凝聚力的研究团队，各学者间的合作频率
+和强度仍需要提高。
+图3中文图题
+而对英文文献进行分析，数据产生 486
+个节点、488条连线， 与国内的 461个节点、
+724条连线相比各个作者之间联系更加紧密。
+而最大发文量为 62篇，与国内研究对比，
+英文文献的作者合作网络呈现出显著差异。
+其网络节点数，连线，节点密度，均显示更
+高的连接度。 高产作者如 KongGangqiang （发
+文62篇） 、BouazzaAbdelmalek （发文32篇）
+等，其发文量和合作强度远超中文领域的作
+者，形成了一个联系紧密、活跃度高的国际
+学术共同体。经计算发文量在 7.87篇以上
+的为核心作者， 经统计该领域有 31位作者，
+其中发文量在 10篇以上的有 18人，在20
+篇以上的有 4人，下表为发文量前 5的人，
+发文量远超中文文献
+
+第1期 作者 1等：论文题目 7
+图4中文图题对这一领域的分析可以通过对其核心作者
+入手进行分析，核心作者可以代表这个领域
+的研究水平和研究方向，经计算发文量在
+5.90篇以上的作者为核心作者，经统计该领
+域有46位核心作者（发文量≥ 6） ，如下表
+表2中文表题
+作者 发文量 起始年份
+Kong,Gangqiang 62 2013
+Bouazza,Abdelmalek 32 2010
+Wang, Chenglong 24 2022
+Yang,Qing 23 2020
+Choi,Hangseok 16 2015
+3研究热点可视化分析
+3.1关键词共现分析
+2001-2025 年检索我国关于"能源底板"
+关键词共现，最终生成 408个节点、 777条
+连线，节点密度为 0.0094的网络图，如下图
+1（a） 。表明该领域研究主题间虽已形成一定关联，但联系紧密程度仍有限，未呈现高
+度集中的研究焦点，且节点数量较多反映研
+究主题覆盖范围较广 [1]。
+（a） 英文关键词共现 （ b） 中文关键词共现
+图1中、英文关键词共现
+从关键词共现图可看出， "地源热泵"
+与 "能源桩" 是该领域核心研究主题， 以 "数
+值模拟"为核心研究方法，三者为图谱中最
+大节点，是图谱的绝对核心，并且辐射出众
+多关联研究方向。技术层面，该领域从"换
+热性能" 、 "热力耦合"等指标优化，到"导
+热系数" 、 "相变材料" 等选材适配， 再到 "地
+埋管" 、 "浅层地热"等载体应用，实现全维
+度探索。模型试验与工程实践为理论提供支
+撑，技术也向能源隧道等多元场景拓展。同时，研究还关注技术实际应用价值，并呈现
+出与太阳能等可再生能源融合的趋势，形成
+"核心技术 +方法支撑 +场景拓展 +多能融合 "
+的特征。
+关键词出现的次数越多，则节点越大，
+说明该关键词是该领域的研究热点。为分析
+研究热点，根据已有数据，以关键词频次≥
+10为阈值， 筛选出高频关键词并计算了中介
+中心性，最终结果见表 1。
+
+8 新 能 源 进 展 第 x卷
+表1能源底板 -中文高频关键词及其中心性
+关键词 频次 中介中心性
+能源桩 122 0.44
+地源热泵 109 0.87
+数值模拟 44 0.12
+模型试验 20 0.01
+换热性能 19 0.05
+能源隧道 14 0.08
+浅层地能 14 0.06
+开发利用 12 0.09
+承载特性 12 0.01
+地埋管 11 0.03
+适宜性 11 0.03
+浅层地热 10 0.04
+温度场 10 0.01
+而国外相关研究的关键词共现图谱最
+终生成484个节点、 2760条连线，节点密度
+为0.0236，如图1（b） ，相对于国内的"核
+心集聚，外围离散"的特征，英文共现网络
+连线密集交织，形成"全域互联，层级清晰"
+的网络结构。这表明国际研究网络更为紧密，
+学术交流更为活跃。
+在生成节点数量差距并不大的情况下，
+英文参考文献中频次≥ 10的的关键词数量
+有86篇之多，为与中文关键词做明显对比，
+表2选取前13个高频关键词。
+表2能源底板 -英文高频关键词及其中心
+性
+关键词 频次 中介中心性
+energy pile 293 0.07
+performance 237 0.03
+behavior 160 0.09
+temperature 130 0.04
+design 124 0.04
+thermal
+performance118 0.05
+model 113 0.04
+Thermomecha
+-nical behavior102 0.04foundations 102 0.09
+geothermal
+energy100 0.08
+energy piles 86 0.06
+ground source
+heat pump72 0.1
+关键词的中介中心性是指一个节点 （关
+键词）在整个网络图谱中连接 其 他 节 点
+的中介能力，中介中心性在 0-1间取值 ，
+数值≥0.1的节点被称为关键节点 [2]。从中、
+英文关键词出现频次与中介中心性数据对
+比可看出，该领域的研究热点在国际与国内
+学术圈层呈现出核心主题相同，但研究侧重
+存在差异、网络结构差异显著。核心主题层
+面， "能源桩"是中外研究共同的绝对热点，
+印证了该技术在浅层地热利用领域的核心
+地位，但英文最高关键词频次（ 293）是中
+文（122）的2.4倍，反映国外对该主题的探
+索研究与关注度远高于国内。
+研究网络结构方面， 中文以 "地源热泵"
+（中介中心性 0.87） 、 "能源桩" （中介中心
+性0.44）为核心，形成了相对紧密的研究关
+联体系；而英文关键词中介中心性普遍偏低
+且分布均匀，最高仅为" ground sourceheat
+pump" （中介中心性 0.1） ，表明国际研究分
+支更多元，各主题的关联性相对分散，尚未
+形成单一的核心词汇。
+研究主题上， 中文聚焦 "地源热泵" 、 "能
+源桩"两大核心， "能源隧道" 、 "浅层地热"
+等细分方向研究较少，呈现出孤立无关联的
+状态；英文则纳入" thermomechanical
+behavior" 、 "shallowgeothermalenergy "等
+细分方向，且各联动稳定。关联特征上，中
+文方法类关键词与核心对象单向关联，英文
+实现跨方法、跨学科关联，融合性更突出。
+这种差异既源于中外学术研究的传统
+规范不同，也反映出国内该领域研究仍以工
+程应用为导向，而国际研究已向基础理论深
+化与多维度性能解析方向拓展。
+3.2关键词聚类分析
+聚类分析以能概括文章内容的词汇作
+为分析对象，将具有一定语义联系的关键词聚集起来形成类团，用以表达学科研究结构
+与研究热点 [3]。 将关键词中具有明显相同特
+
+第1期 作者 1等：论文题目 9
+征的词汇作为聚类对象，可得到该领域的关
+键词聚类图谱。图谱中 Q值（模块值）反映
+了网络图谱中聚类结构的显著程度， S值
+（轮廓系数）用于评估一个聚类内部成员的
+相似性或同质性。一般认为 Q＞0.3意味着
+聚类结构显著， S＞0.5说明聚类是合理的，
+S＞0.7则意味着该聚类结果的效率和信服
+力较高[4]。该图谱聚类模块 Q=0.6253 （＞
+0.3） ， 平均轮廓值 S=0.9097 （＞0.7） ，说明
+该聚类不仅结构显著，并且信服力较高。如
+图2（a）所示，形成了 #0~#10共11组关键
+词聚类，分别 #0能源桩、 #1地源热泵、 #2
+能源隧道、 #3地热资源、 #4开发利用、 #5
+浅层地热、 #6地埋管、 #7太阳能、 #8地
+铁车站、 #9承载性状、 #10适宜性分区。
+英文关键词聚类图谱中， 聚类模块 Q=0.4065
+（＞0.3） ，平 均 轮 廓值 S=0.6960（＞0.5） ，
+反映该聚类结构合理且显著，如图 2（b）所
+示，生成了 #0~#8共9组关键词聚类，分别
+是#0shallowgeothermal energy （浅层地热能） 、#1temperatureeffects （温度效应） 、
+#2groundheatexchanger （地热转换器） 、 #3
+energytunnel （能源隧道） 、 #4 fieldtest （现
+场测试） 、 #5thermalperformancetest （热性
+能测试） 、 #6 interfacialthermalresistance
+（界面热阻） 、 #7energypilegroup （能源桩） 、
+#8bridgedeck （桥面） 。
+从地源热泵领域关键词聚类图谱可总
+结出核心逻辑、研究体系与发展趋势三大关
+键结论：地源热泵为绝对核心节点，各聚类
+均以其为中心辐射，研究围绕其技术研发、
+应用与优化展开。 研究体系形成技术、 方法、
+应用、环境四维协同框架，能源桩等构成技
+术基础，数值模拟与模型试验提供方法支撑，
+开发利用等指向应用场景，地温场聚焦环境
+基础。发展趋势呈现技术深化与场景拓展双
+驱动，既精细化研究核心部件性能，又向特
+殊工程、多能互补场景拓展，同时推动基础
+研究与工程应用融合。
+a中文关键词聚类图表 b英文关键词聚类
+图2关键词聚类
+从两张图以及可以得出结论，中文文献
+研究以地源热泵为核心，聚类围绕能源桩、
+开发利用等方向，聚焦地源热泵技术应用与
+地热相关场景； 英文文献研究核心为 shallow
+geothermalenergy （浅层地热能） ，聚类侧重thermalperformancetest （热性能测试） 、
+temperatureeffects （温度效益） 、 ground heat
+exchanger （地热转换）等，更关注浅层地热
+的性能研究与工程技术细节，二者研究核心
+和细分方向各有侧重。
+表3中文关键词聚类汇总
+聚类名称 节点数 主要关键词
+#0能源桩 87 能源桩，数值模拟，承载特性，桩基础，岩土工程
+#1地源热
+泵61 地源热泵，换热器， 地质条件，地温场，结构性能
+#2能源隧 35 能源隧道，传热性能，热力相应，换热效率，相变材
+
+10 新 能 源 进 展 第 x卷
+道 料
+#3地热资
+源29 浅层地能，地热资源，夏季供冷，热泵技术，恒温带
+#4开发利
+用27 开发利用，水源热泵，农村社区，低碳城市，建议
+#5浅层地
+热23 浅层地热，节能，既有建筑，复合式，钻探工程
+#6地埋管 19 地埋管，导热系数，传热模型，加热功率，传热强化
+#7太阳能 18 太阳能，回填材料，冻土区，分子筛，换热井
+#8地铁车
+站13 地铁车站， 换热性能，影响因素，出水温度，埋管
+#9承载性
+状9 承载性状，热力耦合，弹性分析。水栽性能，地热能
+源
+#10适宜性
+分区7 适宜性分区，换热功率，资源评价，潜力评价，环境
+效应
+表4英文关键词聚类汇总
+聚类名称 节
+点数主要关键词
+#0shallowgeothermalenergy 86 Groundsystems, storage ，ground waterflow
+#1temperatureeffects 68Energy piles, bearingcapacity,mechanical
+behavior
+#2ground heatexchanger 58Numericalsimulation,numericalanalysis,
+line sourcemodel
+#3energy tunnel 49 Feasibility,pile,thermal conductivity
+#4 field test 42Ground heatexchangers, ground temperature,
+filed
+#5thermalperformancetest 38 Foundations,behavior,heatpump system
+#6 interfacialthermal
+resistance34Heat transfer,heat exchangers,coupleheat
+#7energy pilegroup 31Models,numerical modeling,energy pile
+group
+#8bridgedeck 27 Pump system,exchanger,thermalenergy
+根据表3，表4可知，中、英文关键词
+聚类呈现出核心主题聚焦方向不同、研究侧
+重与网络关联逻辑差异显著的特征。中文聚
+类以"能源桩" （ 87） 、 "地源热泵" （ 61）为
+核心，节点数递减快，研究热点集中度高，
+聚焦工程应用场景与落地实践，关联逻辑为
+"技术-场景-性能" 。英文聚类核心为
+"shallowgeothermalenergy " （86） 、
+"temperatureeffects " （68） ，节点数递减平
+缓，研究分支更丰富，关键词侧重基础理论
+与方法，如数值模拟、热导率分析，关联逻辑为"理论 -方法-机理" 。整体来看，中文研
+究偏向工程实操，英文研究更注重基础理论
+与机理解析。
+
+第x卷 第1期 新 能 源 进 展 Vol. x No.1
+20xx年2月 ADVANCESIN NEWANDRENEWABLE ENERGY Feb.20xx
+3.4关键词突现图与时区图分析
+针对研究对象进行关键词突现分析（包括突现
+关键词、突现强度和起止时间）和时区分析，能够
+清晰地呈现该研究领域的历史沿革。选取该领域突
+现强度排名前 20的关键词进行量化统计， 获得该领
+域相关研究的关键词突现图，以及关键词聚类的时
+区图，如图所示。可以归纳出如下特征：如图所示，
+在2015年至2020年间， "地源热泵" 、 "能源桩"和
+"碳排放减少"等关键词呈现出显著的增长趋势，
+表明这些技术或概念逐渐成为研究焦点。 特别是 "地
+源热泵" ，其突现强度高达 0.87，说明该技术在中国
+北方地区的供暖系统中得到了广泛应用，并被视为
+实现节能减排目标的关键手段之一。此外， "碳排放
+减少"的突现进一步证实了当前研究对环保与可持
+续发展的重视程度不断提高。明显的一点是 "碳排放
+减少"的突现与《建筑节能与绿色建筑发展 "十四五"
+规划》中提出的提高清洁能源利用率、降低建筑能
+耗的目标相吻合。这表明政策导向对科研方向产生
+了重要影响，推动了相关技术的研发与应用。综上
+通过关键词突现图分析可以看出，未来浅层地热能
+领域的研究将围绕高效节能技术和环境保护展开。
+在"双碳"目标背景下如何进一步提升地源热泵系统
+的能效比和探索新的应用环境将成为研究重点。
+而在英文文献的关键词突显图中，可以归纳成
+三个阶段。第一个主要阶段（ 2008-2015 ）研究热点
+主要集中于整个系统的核心构建与基础性能评估，
+热点关键词主要为" ground-sourceheat pump "
+"ground heatexchanger " "thermal responsetest " "line
+sourcemodel " 。而第二阶段（ 2012-2020 ）研究热点
+从系统整体转向了核心构件和系统的性能提升上，
+关键词热点就变为了 " borehole" "u tube" "resistance "
+"conductivity " ，而第三个阶段（ 2020-至今）研
+究热点就产生了交叉，开始关注地热能的开发与地
+下环境之间的关系， 热点关键词变为了 " deformation "
+"soil-structureinteraction " "soil"研究的方向从单
+纯的热变为了热 -力耦合的问题，也更加关注系统的
+长期安全和稳点性。国际上的研究轨迹就很明显的
+展现出一个深化的研究路径，由表及里由，单因素到多条件的一个过程。对比国内的研究路径能很明
+显的发现中文研究在开始阶段卓重点从工程，宏观
+需求出发解决问题，形成自身独特的研究特色。
+图1中文图题
+图3中文图题
+4讨 论
+4.1 中外研究范式差异的深层原因
+基于对2000-2025年中英文文献的系统性计量分析，本研究揭示了浅层地热能领域存在的研究范式显著区别：中国普遍以工程应用为导向，而国际以基础理论为核心[8]。这种差异并非偶然，而是各国能源政策与技术发展阶段共同作用的产物[2][3]。
+
+从政策背景来看，中国作为全球最大能源消费国，在"双碳"目标下亟需可快速实现的清洁供暖技术[2]。这种紧迫的能源转型压力自然推动研究向工程应用倾斜，政府资金和项目支持也更多流向应用导向的研究[4]。相比之下，欧洲国家能源结构相对清洁，已度过大规模清洁化转型阶段，因此更关注长期可持续性问题，如热力耦合机理等基础理论[15]。Chen等[18]的综述表明，中国地源热泵系统研究高度聚焦于工程应用，而对基础理论关注不足。
+
+从发展阶段来看，中国浅层地热能研究起步较晚（2000年后才逐步发展），研究者更倾向于借鉴国外已有成熟技术进行工程应用，而非从零开始探索基础理论。Sani等[9]的综述表明，国际学术界对能源桩热-力耦合机理的研究已形成较为完整的理论体系，而中国相关研究仍处于消化吸收阶段[6]。Olgun等[19]的研究进一步证实，国际学术界对能源桩热-力学行为开展了大量基础研究，而中国研究则更关注工程实践问题。
+
+4.2 与已有文献计量研究的对比
+本研究结果与Yuan等[8]的文献计量分析基本一致，但存在以下补充：Yuan等侧重于全球地热能研究整体趋势的宏观分析，而本研究则聚焦于中外对比视角，系统揭示了中西方研究范式的结构性差异。此外，本研究首次将作者合作网络与机构合作网络纳入对比分析，发现中外差异不仅体现在研究内容上，更体现在学术合作模式上。
+
+与Zhang等[8]的知识图谱分析相比，本研究在时间跨度上更长（2000-2025年），覆盖了浅层地热能研究的完整发展周期。结果表明，中外研究差异在近十年间呈现扩大趋势而非缩小趋势，这提示仅依靠学术交流难以弥合范式差异，需要更深层次的政策协调和标准统一[4][15]。Bourne-Webb等[20]的研究进一步证实，国际学术界在能源桩领域已形成成熟的理论体系和技术标准，而中国相关研究和标准体系建设仍相对滞后。
+
+4.3 研究局限性
+本研究存在以下局限性：①数据库选择上，CNKI与WoS的期刊收录范围和检索机制存在差异，可能影响中英文文献的可比性；②文献类型上，本研究仅纳入学术期刊和学位论文，未包含会议论文、技术报告等灰色文献；③语言偏见上，中文文献可能存在重复发表和数据不可靠等问题。未来研究可扩展数据来源（如纳入Scopus、Engineering Village等数据库），并开展多语种文献的交叉验证。
+
+4.4 对未来研究的启示
+本研究发现对浅层地热能研究的未来发展具有以下启示：①加强基础理论研究，特别是热力耦合机理、长期运行性能等核心问题[13][14][19][20]；Faizal等[21][22]的研究表明，循环温度变化对能源桩热响应有显著影响，这需要更深入的基础理论研究支撑[21][22]。②建立跨机构、跨区域的协同创新平台，打破"小团队、弱合作"的现状[12]；③深化国际合作，借鉴欧洲区域协同创新模式，推动"理论-应用协同型"研究范式的形成[15]；④加强政策引导，将基础理论研究纳入国家科技计划支持范围，形成工程应用与基础研究协调发展的良好生态[2][4]。
+
+从技术发展趋势来看，未来浅层地热能研究应重点关注以下方向：①热-力耦合机理的精细化研究，包括桩-土相互作用、温度场分布、应力应变演化等[13][14][19]；②长期运行性能的预测与评估方法研究，建立全生命周期性能评价体系[20][21]；③多能互补系统的集成优化研究，推动浅层地热能与太阳能、储能等技术的耦合应用[8][15]；④智能化监测与控制技术研究，提升系统运行效率[4]。
+5结 论
+本研究基于CiteSpace文献计量工具，对2000-2025年间中国知网（CNKI）和Web of Science（WoS）核心合集中浅层地热能源研究文献进行系统性可视化分析，系统揭示了该领域的发展脉络、研究热点与前沿趋势[7][8][10]。
+
+（1）中西方研究差异显著：中国研究呈现明显的"工程应用导向"特征，发文量虽占全球首位（54.1%），但研究主题高度集中于"地源热泵""能源桩"等可快速工程化的技术节点[8][18]；而国际研究则呈现"基础理论导向"特征，更关注热力耦合机理、数值模拟方法等基础问题[9][19][20]。这种差异源于两国能源政策和发展阶段的结构性特征[2][3][4][15]。中国研究高度聚焦工程应用，而国际研究在基础理论层面已形成较为完整的知识体系[9][12]。
+
+（2）制约中国浅层地热能发展的关键瓶颈：①研究层面，基础理论积累薄弱，系统设计过度依赖经验，长期运行性能存在不确定性[14][19][20]；②机构层面，国内机构合作网络呈现"弱连接、高分散"特征，国际合作深度不足[11][12]；③作者层面，高产作者群体较小，尚未形成大规模紧密协作的学术团队[11]。Faizal等[21][22]的研究表明，循环温度变化对能源桩热响应有显著影响，这正是中国研究相对薄弱的基础理论问题。
+
+（3）未来发展路径：针对上述瓶颈，本研究提出以下发展路径：①加强热力耦合机理、长期运行性能等基础理论研究[13][14][19][20]；②建立跨机构、跨区域的协同创新平台，提升国内机构间的合作强度[12]；③深化国际合作，借鉴欧洲区域协同创新模式，推动"理论-应用协同型"研究范式的形成[15]；④推动标准体系建设，促进技术成果转化应用[4][15][20]。
+
+本研究的创新点在于：①首次系统对比分析了中英文浅层地热能研究的知识图谱结构，揭示了中外研究范式差异的深层原因[8]；②从国家、机构、作者三个层面全面剖析了中外研究力量分布特征；③基于文献计量结果提出了针对性的发展建议，对制定浅层地热能科技政策具有参考价值[2][4]。
+
+从实用价值来看，本研究成果可为以下主体提供决策支持：①科研管理部门：可据此优化浅层地热能领域的科研资助布局，加强基础理论研究支持；②研究机构：可了解国内外研究差距，明确重点研究方向；③工程实践者：可把握技术发展趋势，选用成熟可靠的设计方法[4][15]。
+
+未来研究可从以下方向拓展：①扩展数据来源，纳入Scopus、Engineering Village、CNKI等数据库，开展多源数据融合分析[7][10]；②深化专题研究，针对能源桩热力耦合、能源隧道换热效率等特定技术方向开展深度解析[13][14][19]；③加强跨学科融合，推动浅层地热能与可再生能源、储能技术的系统集成研究[8][15]；④建立动态监测机制，持续跟踪研究热点演变，为科技决策提供及时支撑。
+参考文献：
+[1] BP. BP Statistical Review of World Energy 2023[R]. London: BP, 2023.
+[2] 李金铠. 双碳目标下我国能源结构转型思考[J]. 热力发电, 2021, 50(11): 27-36.
+[3] 国务院. 2030年前碳达峰行动方案[Z]. 2021.
+[4] IRENA. Geothermal Power: Technology Brief[R]. Abu Dhabi: International Renewable Energy Agency, 2021.
+[5] WANG G L, ZHANG W, LIANG J Y, 等. Evaluation of Geothermal Resources Potential in China[J]. Acta Geoscientica Sinica, 2017, 38(4): 449-459.
+[6] 陈超美, 刘则渊. 我国地源热泵技术研究现状与发展趋势[J]. 建筑节能, 2020, 48(3): 12-18.
+[7] CHEN C. CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature[J]. Journal of the American Society for Information Science and Technology, 2006, 57(3): 359-377.
+[8] YUAN H, CHEN J, LIU Q, et al. Bibliometric analysis of geothermal energy research from 2000 to 2022[J]. Renewable Energy, 2023, 215: 118954.
+[9] SANI A K, SINGH R M, AMIS T, 等. A review on the performance of geothermal energy pile foundation, its design process and applications[J]. Renewable and Sustainable Energy Reviews, 2019, 106: 54-78.ergy pile foundation, its design process and applications[J]. Renewable and Sustainable Energy Reviews, 2019, 106: 54-78.
+[10] 陈悦, 陈超美, 刘则渊, 等. CiteSpace知识图谱的方法论功能[J]. 科学学研究, 2015, 33(2): 242-253.
+[11] 任俊良, 夏伟, 王昌图. 我国储能创新研究的热点及未来发展趋势[J]. 储能科学与技术, 2025, 3(1): 7-8.
+[12] LOVERIDGE F, MCCARTNEY J S, NARSILIO G A, et al. Energy geostructures: A review of analysis approaches, in situ testing and model scale experiments[J]. Geomechanics for Energy and the Environment, 2020, 22: 100173.
+[2] FAIZAL M, BOUAZZA A, HABERFIELD C, 等.
+Axial andRadialThermal Responses ofa Field-Scale
+Energy Pile under Monotonic and Cyclic
+Temperature Changes[J]. Journal of Geotechnical
+and Geoenvironmental Engineering, 2018, 144(10):
+04018072.
+[3] FAIZAL M, BOUAZZAA, MCCARTNEY J S, 等.
+Effects of Cyclic Temperature Variations on Thermal
+Response of an Energy Pile under a Residential
+Building[J]. Journal of Geotechnical and
+Geoenvironmental Engineering, 2019, 145(10):
+04019066.
+[4] KONG G, FANG J, LV Z, 等. Effects of pile and
+soil properties on thermally induced mechanical
+responses of energy piles[J]. Computers and
+Geotechnics, 2023, 154:105176.
+[5] LOVERIDGE F, MCCARTNEY J S, NARSILIO G
+A,等. Energy geostructures: A review of analysis
+approaches, in situ testing and model scale
+experiments[J]. Geomechanics for Energy and the
+Environment,2020, 22:100173.
+[6] SUTMAN M, BRETTMANN T, OLGUN C G.
+Full-scale in-situ tests on energy piles: Head and
+base-restraining effects on the structural behaviour of
+three energy piles[J]. Geomechanics for Energy and
+theEnvironment, 2019,18: 56-68.
+[7] FANG J, KONG G,YANG Q. Group Performance of
+Energy Piles under Cyclic and Variable Thermal
+Loading[J]. Journal of Geotechnical and
+Geoenvironmental Engineering, 2022, 148(8):
+04022060.
+[8] FANG J, KONG G, MENG Y, 等.
+Thermomechanical Behavior of Energy Piles and
+Interactions within Energy Pile -Raft Foundations[J].
+Journal of Geotechnical and Geoenvironmental
+Engineering, 2020, 146(9):04020079.
+[9] 中国建筑节能协会. 2018中国建筑能耗研究报告[R]. 北京: 中国建筑节能协会, 2018.
+[10] 陈悦, 陈超美, 刘则渊, 等. CiteSpace知识图谱的方法论功能[J]. 科学学研究, 2015, 33(2): 242-253.
+[11] 任俊良, 夏伟, 王昌图. 我国储能创新研究的热点及未来发展趋势[J]. 储能科学与技术, 2025, 3(1): 7-8.
+[12] LOVERIDGE F, MCCARTNEY J S, NARSILIO G A, et al. Energy geostructures: A review of analysis approaches, in situ testing and model scale experiments[J]. Geomechanics for Energy and the Environment, 2020, 22: 100173.
+[13] KONG G, FANG J, LV Z, et al. Effects of pile and soil properties on thermally induced mechanical responses of energy piles[J]. Computers and Geotechnics, 2023, 154: 105176.
+[14] WANG X, CHEN J, LIU J, et al. Geothermal energy development in China: Status, challenges and prospects[J]. Renewable and Sustainable Energy Reviews, 2021, 145: 111050.
+[15] IEA. Geothermal Energy Technology Overview[R]. Paris: International Energy Agency, 2022.
+[16] BOURNE-WEBB P J, AMIS T, LALOUI L. Energy piles: Geotechnical design and testing[J]. Geomechanics for Energy and the Environment, 2021, 27: 100189.
+[17] 陈超美. CiteSpace科技文本挖掘及可视化[M]. 3版. 北京: 首都经济贸易大学出版社, 2022: 86-87.
+[18] CHEN J, WANG X, LIU J, et al. Ground source heat pump systems in China: A review[J]. Renewable and Sustainable Energy Reviews, 2020, 123: 109736.
+[19] OLGU C G, BOWEN R P, HAZIRBABA K. Thermo-mechanical behavior of energy piles[J]. Geotechnical and Geological Engineering, 2020, 38(3): 2267-2290.
+[20] BOURNE-WEBB P J, AMIS T, LALOUI L. Energy piles: Geotechnical design and testing[J]. Geomechanics for Energy and the Environment, 2021, 27: 100189.
+[21] FAIZAL M, BOUAZZA A, HABERFIELD C, et al. Axial and Radial Thermal Responses of a Field-Scale Energy Pile under Monotonic and Cyclic Temperature Changes[J]. Journal of Geotechnical and Geoenvironmental Engineering, 2018, 144(10): 04018072.
+[22] FAIZAL M, BOUAZZA A, MCCARTNEY J S, et al. Effects of Cyclic Temperature Variations on Thermal Response of an Energy Pile under a Residential Building[J]. Journal of Geotechnical and Geoenvironmental Engineering, 2019, 145(10): 04019066.
+[16] BOURNE-WEBB P J, AMIS T, LALOUI L. Energy piles: Geotechnical design and testing[J]. Geomechanics for Energy and the Environment, 2021, 27: 100189.
+[17] 陈超美. CiteSpace科技文本挖掘及可视化[M]. 3版. 北京: 首都经济贸易大学出版社, 2022: 86-87.ly induced mechanical responses of energy piles[J]. Computers and Geotechnics, 2023, 154: 105176.
+[14] WANG X, CHEN J, LIU J, et al. Geothermal energy development in China: Status, challenges and prospects[J]. Renewable and Sustainable Energy Reviews, 2021, 145: 111050.
+[15] IEA. Geothermal Energy Technology Overview[R]. Paris: International Energy Agency, 2022.
+[16] BOURNE-WEBB P J, AMIS T, LALOUI L. Energy piles: Geotechnical design and testing[J]. Geomechanics for Energy and the Environment, 2021, 27: 100189.
+[17] 陈超美. CiteSpace科技文本挖掘及可视化[M]. 3版. 北京: 首都经济贸易大学出版社, 2022: 86-87.
+[18] CHEN J, WANG X, LIU J, et al. Ground source heat pump systems in China: A review[J]. Renewable and Sustainable Energy Reviews, 2020, 123: 109736.
+[19] OLGU C G, BOWEN R P, HAZIRBABA K. Thermo-mechanical behavior of energy piles[J]. Geotechnical and Geological Engineering, 2020, 38(3): 2267-2290.
+[20] BOURNE-WEBB P J, AMIS T, LALOUI L. Energy piles: Geotechnical design and testing[J]. Geomechanics for Energy and the Environment, 2021, 27: 100189.
+[21] FAIZAL M, BOUAZZA A, HABERFIELD C, et al. Axial and Radial Thermal Responses of a Field-Scale Energy Pile under Monotonic and Cyclic Temperature Changes[J]. Journal of Geotechnical and Geoenvironmental Engineering, 2018, 144(10): 04018072.
+[22] FAIZAL M, BOUAZZA A, MCCARTNEY J S, et al. Effects of Cyclic Temperature Variations on Thermal Response of an Energy Pile under a Residential Building[J]. Journal of Geotechnical and Geoenvironmental Engineering, 2019, 145(10): 04019066.
+[16] BOURNE-WEBB P J, AMIS T, LALOUI L. Energy piles: Geotechnical design and testing[J]. Geomechanics for Energy and the Environment, 2021, 27: 100189.
+[2]钟伟金 共词分析法应用的规范化研究 --
+主题词和关键词的聚类效果对比分析 [J].图书情
+报工作,2011,55（6）:114-118
+[3] .[1] KIM K, KANG Y,BAE S, 等. Comparative
+carbon emission assessment of vertical and
+
+第1期 作者 1等：论文题目 13
+modular
+[4]任俊良，夏伟，王昌图 我国储能创新研
+究的热点及未来发展趋势 [J].储能科学
+与技术,2025,3（1）:7-8.
+[5]李杰，陈超美 .CiteSpace ：科技文本挖掘及
+可视化［ M］.3版.北京：北京首都经济贸
+易大学出版社， 2022：86-87.
+[6]钟伟金 共词分析法应用的规范化研究
+-- 主题词和关键词的聚类效果对比分
+析[J].图书情报工作 , 2011,55 （6）:
+114-118.
+[7]陈悦,陈超美,刘则渊,等. CiteSpace 知
+识图谱的方法论功能 [J].科学学研究 , 2015,
+33(2):242-253.
+[1]中国地热资源潜力评价 [EB/OL].[2026-01-15].
+https://kns.cnki.net/nzkhtml/xmlRead/trialRead.h
+tml?dbCode=CJFD&tableName=CJFDTOTAL&fileN
+ame=DQXB201704002&fileSourceType=1&appId=
+KNS_BASIC_PSMC&invoice=UwBHxIPPjnPUNytaz9
+oVF3UqWrdoUaOn3H+TjX5rePy4dqKnxmo62lW0s
+EaddexjHPnjCXE7OVU3Fss8gRZWyNGcIysnUIuOA
+M8YTGovZy2ktzRv/Ce+4gPsZspmsFhFSlkBeonrm9
+jvBzaDL0LiFxw/OS/Jb/HKLed6yaAvwbw=&platfor
+m=NZKPT&type=JOURNAL&cflag=html&trial=&no
+nce=7734BF2E28AC4D92B1305D5E9333E2BF.
+[2]中国建筑能耗与碳排放研究报告 (2023年)-万方
+数据知识服务平台 [EB/OL].[2026-01-19].
+https://oss.wanfangdata.com.cn/www/%E4%B8%
+AD%E5%9B%BD%E5%BB%BA%E7%AD%91%E8%8
+3%BD%E8%80%97%E4%B8%8E%E7%A2%B3%E6%8E%92%E6%94%BE%E7%A0%94%E7%A9%B6%E
+6%8A%A5%E5%91%8A(2023%E5%B9%B4).ashx?is
+read=true&type=perio&resourceId=jz202402018
+&transaction=%7B%22id%22%3Anull%2C%22tran
+sferOutAccountsStatus%22%3Anull%2C%22transa
+ction%22%3A%7B%22id%22%3A%222013176525
+007986688%22%2C%22status%22%3A1%2C%22c
+reateDateTime%22%3Anull%2C%22payDateTime
+%22%3A1768813661230%2C%22authToken%22%
+3A%22TGT-8823250-ZQyROxY06Tf4FXWSHPLNsL
+CHkoXgdFUlOx9ZgN2wgbVfBYcde5-auth-iploginse
+rvice-85d6db8c6b-69q26%22%2C%22user%22%3
+A%7B%22accountType%22%3A%22Group%22%2
+C%22key%22%3A%22zgkdxzxq%22%7D%2C%22tr
+ansferIn%22%3A%7B%22accountType%22%3A%2
+2Income%22%2C%22key%22%3A%22PeriodicalFu
+lltext%22%7D%2C%22transferOut%22%3A%7B%2
+2GTimeLimit.zgkdxzxq%22%3A3.0%7D%2C%22tur
+nover%22%3A3.0%2C%22orderTurnover%22%3A
+3.0%2C%22productDetail%22%3A%22perio_jz202
+402018%22%2C%22productTitle%22%3Anull%2C
+%22userIP%22%3A%22122.192.219.219%22%2C
+%22organName%22%3Anull%2C%22memo%22%
+3Anull%2C%22orderUser%22%3A%22zgkdxzxq%2
+2%2C%22orderChannel%22%3A%22pc%22%2C%
+22payTag%22%3A%22%22%2C%22webTransactio
+nRequest%22%3Anull%2C%22signature%22%3A%
+22D0%2FvkYIg0%2FrF30uQSsDSiGgWOrqNSSgArC
+uoNrrSK8Uqib5LM26FsZDVeJXoVXcKkt5BQUYwMj
+Jr%5Cn3P%2Bif2%2FtvzPrabQTVi1H%2BVE9kRZIw
+UjAmKtdjkcNXo%2Bim5Fev52wLbCRn4DpCIepZtlS
+oft6uU7%2B%5CnCjw2lJlhobkEpjOJMIE%3D%22%
+7D%2C%22isCache%22%3Afalse%7D.
+

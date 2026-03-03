@@ -1,0 +1,26 @@
+{
+  "name": "@openclaw/wechat",
+  "version": "1.0.0",
+  "description": "WeChat Personal Channel Plugin for OpenClaw via Python wxauto",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "install:python": "pip install wxauto"
+  },
+  "keywords": [
+    "openclaw",
+    "wechat",
+    "channel",
+    "wxauto"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "optionalDependencies": {
+    "node-python-bridge": "^1.0.0"
+  }
+}

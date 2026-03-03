@@ -1,0 +1,34 @@
+{
+  "channels": {
+    "wechat": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "allowFrom": [],
+      "groupPolicy": "allowlist",
+      "requireMention": true,
+      "listenList": [
+        "文件传输助手"
+      ],
+      "avatarDir": "avatars/default",
+      "memoryEnabled": true
+    }
+  },
+  "agents": {
+    "list": [
+      {
+        "name": "wechat-assistant",
+        "channel": "wechat",
+        "description": "微信助手",
+        "identity": {
+          "name": "小助手",
+          "emoji": "👋",
+          "textColor": "#ffffff"
+        },
+        "systemPrompt": "你是用户的微信助手，友好、乐于助人。",
+        "groupChat": {
+          "allowlist": ["*"]
+        }
+      }
+    ]
+  }
+}

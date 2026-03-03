@@ -1,0 +1,44 @@
+{
+  "id": "wechat",
+  "name": "WeChat Personal",
+  "description": "WeChat PC automation via image-based clicking for maximum compatibility",
+  "version": "1.0.0",
+  "channels": ["wechat"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true
+      },
+      "dmPolicy": {
+        "type": "string",
+        "enum": ["pairing", "allowlist", "open", "disabled"],
+        "default": "pairing"
+      },
+      "allowFrom": {
+        "type": "array",
+        "items": { "type": "string" },
+        "default": []
+      },
+      "groupPolicy": {
+        "type": "string",
+        "enum": ["open", "allowlist", "disabled"],
+        "default": "allowlist"
+      },
+      "requireMention": {
+        "type": "boolean",
+        "default": true
+      },
+      "serverUrl": {
+        "type": "string",
+        "default": "http://127.0.0.1:18788"
+      },
+      "messageDelay": {
+        "type": "number",
+        "default": 500
+      }
+    }
+  }
+}

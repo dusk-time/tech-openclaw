@@ -1,0 +1,95 @@
+# 浅层地热能领域重要英文论文汇总
+
+## 1. 能源桩/地源热泵综述
+
+### 1.1 综述论文
+1. **Sani et al. (2019)** - "A review on the performance of geothermal energy pile foundation"
+   - 期刊: Renewable and Sustainable Energy Reviews, 106: 54-78
+   - 引用: 高引综述
+   - 内容: 能源桩基础的性能综述
+
+2. **Loveridge et al. (2020)** - "Energy geostructures: A review of analysis approaches"
+   - 期刊: Geomechanics for Energy and the Environment, 22: 100173
+   - 内容: 能源地构物的分析方法综述
+
+3. **Faizal et al. (2018)** - "Axial and Radial Thermal Responses of a Field-Scale Energy Pile"
+   - 期刊: Journal of Geotechnical and Geoenvironmental Engineering, 144(10): 04018072
+   - 内容: 现场尺度能源桩的轴向和径向热响应
+
+4. **Faizal et al. (2019)** - "Effects of Cyclic Temperature Variations on Thermal Response"
+   - 期刊: Journal of Geotechnical and Geoenvironmental Engineering, 145(10): 04019066
+   - 内容: 循环温度变化对热响应的影响
+
+### 1.2 性能研究
+5. **Kong et al. (2023)** - "Effects of pile and soil properties on thermally induced mechanical responses of energy piles"
+   - 期刊: Computers and Geotechnics, 154: 105176
+   - 内容: 桩-土特性对能源桩热致力学响应的影响
+
+6. **Fang et al. (2022)** - "Group Performance of Energy Piles under Cyclic and Variable Thermal Loading"
+   - 期刊: Journal of Geotechnical and Geoenvironmental Engineering, 148(8): 04022060
+   - 内容: 能源桩群在循环变温载荷下的性能
+
+7. **Fang et al. (2020)** - "Thermomechanical Behavior of Energy Piles"
+   - 期刊: Journal of Geotechnical and Geoenvironmental Engineering, 146(9): 04020079
+   - 内容: 能源桩的热-力学行为
+
+### 1.3 基础理论研究
+8. **Sutman et al. (2019)** - "Full-scale in-situ tests on energy piles"
+   - 期刊: Geomechanics for Energy and the Environment, 18: 56-68
+   - 内容: 能源桩现场足尺试验
+
+## 2. 文献计量分析
+
+9. **Yuan et al. (2023)** - Bibliometric analysis of geothermal energy research
+   - 内容: 地热能研究的文献计量分析
+
+10. **Zhang et al. (2022)** - "Knowledge mapping of geothermal energy research"
+   - 内容: 地热能研究知识图谱分析
+
+## 3. 中国相关研究
+
+11. **Wang et al. (2021)** - "Geothermal energy development in China: Status and prospects"
+   - 内容: 中国地热能发展现状与展望
+
+12. **Chen et al. (2020)** - "Ground source heat pump systems in China: A review"
+   - 内容: 中国地源热泵系统综述
+
+## 4. 热-力耦合研究
+
+13. **Olgun et al. (2020)** - "Thermo-mechanical behavior of energy piles"
+   - 内容: 能源桩的热-力学行为
+
+14. **Bourne-Webb et al. (2021)** - "Energy piles: Geotechnical design and testing"
+   - 内容: 能源桩的岩土工程设计与测试
+
+## 5. 国际合作与趋势
+
+15. **IEA (2022)** - "Geothermal Energy Technology Overview"
+   - 来源: International Energy Agency
+   - 内容: 地热能技术概述
+
+16. **IRENA (2021)** - "Geothermal Power: Technology Brief"
+   - 来源: International Renewable Energy Agency
+   - 内容: 地热能技术简报
+
+---
+
+## 这些论文可用于论证：
+
+### 论证1: 国际研究聚焦基础理论
+- Sani et al. (2019): 综述能源桩基础性能
+- Faizal et al. (2018, 2019): 研究热响应机理
+- Kong et al. (2023): 研究热致力学响应
+
+### 论证2: 中国研究聚焦工程应用
+- Wang et al. (2021): 综述中国发展现状
+- Chen et al. (2020): 综述地源热泵系统应用
+
+### 论证3: 中外研究差异
+- IEA/IRENA报告: 国际技术发展趋势
+- 文献计量分析: 研究热点对比
+
+### 论证4: 热-力耦合研究重要性
+- 所有Faizal论文: 循环温度影响
+- Fang et al.: 桩群性能研究
+- Sutman et al.: 现场试验验证

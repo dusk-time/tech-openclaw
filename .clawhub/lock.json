@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "git": {
+      "version": "1.0.4",
+      "installedAt": 1771905499361
+    },
+    "stock-market-pro": {
+      "version": "1.2.12",
+      "installedAt": 1772086724507
+    },
+    "stock-price-checker": {
+      "version": "1.0.0",
+      "installedAt": 1772086822237
+    }
+  }
+}

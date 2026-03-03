@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-tools": {
+      "source": "inference-sh-6/skills",
+      "sourceType": "github",
+      "computedHash": "15d2ee25e4cd620e88227699d2c85a9ca873beaf4087db5efe0a44122e2e7c3b"
+    },
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "computedHash": "5cafa1558b0b6bd4d4c71f23d5567b7fcbbcdb4b0a50b0c5f69a80a3cebaf9b8"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "25872a21881a950edc3db1f3329664d60405d539660ce05b3265db2de06a7dfd"
+    },
+    "game-changing-features": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "computedHash": "957248a5654c01fe82186b4b31199b0c618a9375c1d0024fd66568afbe12c48f"
+    },
+    "plotly": {
+      "source": "davila7/claude-code-templates",
+      "sourceType": "github",
+      "computedHash": "4fdf1d51109325319d58807609509b26e932a42acb4612c72cfbe40bb8316013"
+    },
+    "python-project": {
+      "source": "julianobarbosa/claude-code-skills",
+      "sourceType": "github",
+      "computedHash": "a9872bd5c8d8474b59cfdc49e2556a54b72de663b8745973c52b95f6ce29bbcc"
+    },
+    "stock-analysis": {
+      "source": "gracefullight/stock-checker",
+      "sourceType": "github",
+      "computedHash": "095b89fb6c8ed3c5a01803f18749997ae3c8efbaa938637ebc694f8594ef4b6e"
+    },
+    "yahoo-finance": {
+      "source": "gracefullight/stock-checker",
+      "sourceType": "github",
+      "computedHash": "caa54f178d378e381330cf5a4151ce5bcdcbe05ace01c1816438f2c698225795"
+    }
+  }
+}

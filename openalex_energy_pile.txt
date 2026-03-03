@@ -1,0 +1,3 @@
+=== OpenAlex: energy pile geothermal ===
+
+1. Title: A review on the performance of geothermal energy pile foundation, its design process and applications

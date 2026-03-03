@@ -1,0 +1,34 @@
+=== WeChat UI Deep Explorer ===
+
+Found window: н╒пе
+
+=== UI Tree (first 3 levels) ===
+
+[WindowControl] н╒пе
+  -> 2 children
+  [0] [PaneControl] Weixin
+  [1] [PaneControl] MMUIRenderSubWindowHW
+  [PaneControl] Weixin
+    -> 0 children
+  [PaneControl] MMUIRenderSubWindowHW
+    -> 0 children
+
+=== Searching for Chat List ===
+
+2026-02-20 16:21:17.395 explore_ui.py[142] find_chat_list -> Find Control Timeout(10s): {ControlType: ListControl}
+Traceback (most recent call last):
+  File "C:\Users\28054\.openclaw\workspace\wechat-openclaw\explore_ui.py", line 162, in <module>
+    main()
+  File "C:\Users\28054\.openclaw\workspace\wechat-openclaw\explore_ui.py", line 155, in main
+    find_chat_list(window)
+  File "C:\Users\28054\.openclaw\workspace\wechat-openclaw\explore_ui.py", line 142, in find_chat_list
+    print(f"Found 1 ListControl: {lists.Name if lists.Name else '(no name)'}")
+                                                ^^^^^^^^^^
+  File "F:\python\3.11.8\Lib\site-packages\uiautomation\uiautomation.py", line 6799, in Name
+    return self.Element.CurrentName or ''   # CurrentName may be None
+           ^^^^^^^^^^^^
+  File "F:\python\3.11.8\Lib\site-packages\uiautomation\uiautomation.py", line 6935, in Element
+    self.Refind(maxSearchSeconds=TIME_OUT_SECOND, searchIntervalSeconds=self.searchInterval)
+  File "F:\python\3.11.8\Lib\site-packages\uiautomation\uiautomation.py", line 7185, in Refind
+    raise LookupError('Find Control Timeout({}s): {}'.format(maxSearchSeconds, self.GetSearchPropertiesStr()))
+LookupError: Find Control Timeout(10s): {ControlType: ListControl}
